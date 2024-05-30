@@ -44,6 +44,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://0.0.0.0',
+    'https://iajes-testing.netlify.app'
+    'iajes-testing.netlify.app'
 ]
 
 CSRF_TRUSTED_ORIGINS = [
@@ -52,6 +54,8 @@ CSRF_TRUSTED_ORIGINS = [
     'http://localhost:8000',
     'http://127.0.0.1:8000',
     'http://0.0.0.0',
+    'https://iajes-testing.netlify.app'
+    'iajes-testing.netlify.app'
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -172,6 +176,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
