@@ -29,8 +29,8 @@ DEBUG = True
 
 #Email Config
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'sdgde.official@gmail.com'
-EMAIL_HOST_PASSWORD ='fnnggdsmhzlwitvv'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD =''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_TIMEOUT = 300 # in seconds
